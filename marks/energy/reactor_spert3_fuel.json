@@ -1,0 +1,5 @@
+{
+ "model": "energy/reactor_spert3_fuel",
+ "pass_mark": "Fixed before any model was run on a hot-startup test and before any held-back comparison (protocol evidence/research/reactor_spert3/validation_protocol_v2.md; SHA-256 of its machine-readable copy 413ace16d5cc3d622c0ef44c0ea2b9526ac7526dfeee4b43ae601d6018e51db4), for each held-back group and for the 30 together. Peak power and energy released to the peak: the root mean square of the error, in units of the report's standard deviation, at most 1.5; the worst error at most 3; the mean error at most 0.5 in size. Time of the peak: the root mean square of the relative error at most 5 percent and the worst at most 10 percent.",
+ "sha256": "413ace16d5cc3d622c0ef44c0ea2b9526ac7526dfeee4b43ae601d6018e51db4"
+}
