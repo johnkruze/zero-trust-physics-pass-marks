@@ -1,0 +1,5 @@
+{
+ "model": "energy/reactor_spert3_ccore",
+ "pass_mark": "Fixed before any constant was fitted and before any model was run on any row (evidence/research/reactor_spert3_ccore/validation_protocol.md, SHA-256 8e2e56cf3e93099f19c6a17537acb76708dc99da682915ea602d84005cbae72f, with amendment 1). On the held-back rows, for each of peak power, energy to peak and the maximum plate surface temperature rise: exp(root mean square of ln(card / measured)) - 1 at most 20 percent, and below each of three baselines fitted on the same rows: Fuchs-Nordheim on the measured reciprocal period, the nearest fitted row, and a straight line in the logarithm of the reciprocal period. The whole table, held-back rows included, had been read to check its transcription before the protocol was fixed.",
+ "sha256": "8e2e56cf3e93099f19c6a17537acb76708dc99da682915ea602d84005cbae72f"
+}
