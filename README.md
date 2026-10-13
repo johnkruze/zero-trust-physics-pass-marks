@@ -12,7 +12,7 @@ A new model's mark is added here before the model is compared with its held-back
 
 ## Checking a mark's date
 
-Every file here is added through GitHub itself, one file to a commit, so the commit that adds it is made, dated and signed by GitHub. Open a file and choose **History**: the commit is marked **Verified**, and its date is GitHub's.
+Every mark here is added through GitHub itself, one mark to a commit, so the commit that adds it is made, dated and signed by GitHub. Open a mark's file and choose **History**: the commit is marked **Verified**, and its date is GitHub's.
 
 ## Where the rest is
 
