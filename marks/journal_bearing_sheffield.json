@@ -1,0 +1,5 @@
+{
+ "model": "journal_bearing_sheffield",
+ "pass_mark": "On the residual (solver - measured) / measured over the held-back runs: mean of the absolute residual at most 0.15, worst absolute residual at most 0.35, absolute value of the mean at most 0.10. Fixed 2026-10-09T20:11:00Z, SHA-256 5319a2f190dece027bd0f19cb339b9d950827a2e7dcde7241b251380a21de01a of analysis/prereg.json, before any measured film thickness was read.",
+ "sha256": "5319a2f190dece027bd0f19cb339b9d950827a2e7dcde7241b251380a21de01a"
+}
