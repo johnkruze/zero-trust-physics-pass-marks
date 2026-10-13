@@ -1,0 +1,5 @@
+{
+ "model": "energy/tokamak_jet_dte1",
+ "pass_mark": "Fixed before the card was run on either held-back pulse (pre-registration SHA-256 7badf2b1267219d0e4da2edaad7d50097f9f98ceee1e0ab5fb9f8fd391ba94bb), over the heated window of each pulse, sampled every 25 ms: thermal energy error at most 14.5 percent of its measured peak, root mean square, the error the IPB98(y,2) scaling has on its own data; fast-ion energy error at most 25 percent of its peak; fusion power error at most 25 percent of its peak; and the fusion energy released within 25 percent.",
+ "sha256": "7badf2b1267219d0e4da2edaad7d50097f9f98ceee1e0ab5fb9f8fd391ba94bb"
+}
