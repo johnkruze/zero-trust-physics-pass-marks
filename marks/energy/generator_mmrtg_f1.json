@@ -1,0 +1,5 @@
+{
+ "model": "energy/generator_mmrtg_f1",
+ "pass_mark": "Two lines, fixed before any structure was fitted, each 0.010 of 115.4 W, which is 1.154 W: over the held-back days, 2,809 to 4,087, the root mean square error within the line, and the mean error over the final 365 days within the line. Both had to be met.",
+ "sha256": "ea2f70ec6b58a237d9df8ace08f62e90370114aeadce482eeb00fa99cad56cc7"
+}
