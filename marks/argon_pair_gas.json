@@ -1,0 +1,5 @@
+{
+ "model": "argon_pair_gas",
+ "pass_mark": "Fixed on 2026-10-09, before any model was run on any measurement. Held-back speed of sound: root mean square error at most 0.030 m/s; largest error at most 0.060 m/s; root mean square error at most a quarter of the ideal gas's. Viscosity: mean error at most 2.0 percent; largest at most 4.0 percent. The viscosity lines are an allowance for a two-constant potential, about ten times the measurement's uncertainty. They were drawn knowing that textbook constants give about 2 percent, so meeting them is not evidence of agreement with the measurement. Rows of both data sets were seen before the split. The solver passes only if all five are met.",
+ "sha256": "3e99842a7abc1c82c39f75e7e962ef901e0f6914d84d2f8644e567e2ae4ce004"
+}
