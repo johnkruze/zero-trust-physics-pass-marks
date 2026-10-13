@@ -1,0 +1,5 @@
+{
+ "model": "aerospace/crater_ryugu_sci",
+ "pass_mark": "Fixed before any centrifuge crater was fitted or predicted and before the report of the Ryugu crater was opened (protocol SHA-256 ee2793f1ce97b42ed07210121d4fb7cc2f3599db1db1a46a9530efd3cb9da9b3). In the laboratory: fitted on the nine craters made at 1 g, the law must put each of the four centrifuge craters, 2.5 to 4.5 decades away in scaled gravity, inside its 95 percent prediction interval, with a mean error of at most 10 percent. On Ryugu: the radius at which the card stops must be within an allowance worked out by rule from the fit's 95 percent prediction interval at Ryugu, the measurement's stated uncertainty and the uncertainty of the local gravity.",
+ "sha256": "ee2793f1ce97b42ed07210121d4fb7cc2f3599db1db1a46a9530efd3cb9da9b3"
+}
