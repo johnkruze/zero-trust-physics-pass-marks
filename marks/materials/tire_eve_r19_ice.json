@@ -1,0 +1,5 @@
+{
+ "model": "materials/tire_eve_r19_ice",
+ "pass_mark": "Fixed before any held-back run was opened (pre-registration SHA-256 84a380a5c948cd741ac91845fbfeac7ed1b60ed3c6a01855bcb99c996e7782c1), on the 60 held-back cells, each the mean over three repeats of the last nine seconds of a slip stage at 5, 6, 7, 12, 15 or 20 percent slip: root-mean-square error of the friction ratio at most 0.045 over all 60 cells, over the 24 cells at 2.5 bar and over the 36 cells at 6.5 kN, and over the 60 cells smaller than the error of a ratio of 0.1 that uses no measurement of this tyre and smaller than the error of the opened runs' mean with no slip term. That mean is the geometric mean of each mode, least squares on the logarithm, as the fit is; the arithmetic mean would have given 0.038, and the line is met either way.",
+ "sha256": "84a380a5c948cd741ac91845fbfeac7ed1b60ed3c6a01855bcb99c996e7782c1"
+}
