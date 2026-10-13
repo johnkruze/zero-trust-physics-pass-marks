@@ -1,0 +1,5 @@
+{
+ "model": "aerospace/solar_system",
+ "pass_mark": "Fixed before any held-back measurement was read (protocol SHA-256 2d79e65df9fb8ad036444896e776e98d18cb98fc7b582f861747f27d79fd9679). For every measurement of a held-back file, measured minus computed as a one-way distance at most B x max(1, T / 7.75 years)^2, T counted from the start: B is 0.70 km for Mars, 1.0 km for Mercury, 1.5 km for Jupiter and 0.5 km for Saturn. One run from the 1999 state in steps of 1800 s.",
+ "sha256": "2d79e65df9fb8ad036444896e776e98d18cb98fc7b582f861747f27d79fd9679"
+}
