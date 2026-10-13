@@ -1,0 +1,5 @@
+{
+ "model": "aerospace/satellite_lageos1",
+ "pass_mark": "Fixed before any model was scored: within 1 m of the published orbit after one revolution, 10 m after one day and 100 m after seven days.",
+ "sha256": "52114d795811fc014b3114c4bec8726d33ca0771dc295c57253d914243498fed"
+}
