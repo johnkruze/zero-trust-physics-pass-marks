@@ -1,0 +1,5 @@
+{
+ "model": "aerospace/capsule_stardust",
+ "pass_mark": "Fixed before any trajectory was computed: peak load within 3.64 g of 32.89 g, and the altitude and the Mach number of parachute opening each reached within 7.4 s of the recorded time. The lines are NASA's printed three-sigma pre-entry spreads.",
+ "sha256": "5cbb71685c5d6785d7882d547a76810e29171b1f89b4b633cc19dbcc67ff6684"
+}
