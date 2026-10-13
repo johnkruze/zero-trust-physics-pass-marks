@@ -1,0 +1,5 @@
+{
+ "model": "ablator_slab",
+ "pass_mark": "For the 31 held-back arc-jet tests the lines were fixed on 2026-10-07, before any model was run. Wear: within sqrt(0.5² + (0.16 × measured)²) mm on at least 25 of the 31, with a mean error within 8 percent. Hottest face temperature: within 7 percent on at least 23 of the 28 that have one, with a mean error within 3.5 percent. The model passes only if both do. No line was fixed beforehand for the workshop cases or for Stardust, where each version of the model was frozen before its run.",
+ "sha256": "b3053d707af191baddb962b52b86cc430911f8bafaf191c7617bb757e058b869"
+}
