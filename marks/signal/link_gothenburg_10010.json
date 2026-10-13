@@ -1,0 +1,5 @@
+{
+ "model": "signal/link_gothenburg_10010",
+ "pass_mark": "Fixed before any reading of August was opened (pre-registration SHA-256 f60bfcc70553f95fef5d35963b6550120de3c67e712c057e40c5d37c51784625), on five-minute means of the attenuation above the dry level over every August rain event of at least 1 mm: root mean square error at most 0.90 dB, at most 0.80 of the error of P.838 alone on the same blocks, and the summed attenuation between 0.75 and 1.25 of the measured sum.",
+ "sha256": "f60bfcc70553f95fef5d35963b6550120de3c67e712c057e40c5d37c51784625"
+}
