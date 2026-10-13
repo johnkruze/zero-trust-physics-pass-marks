@@ -1,0 +1,5 @@
+{
+ "model": "step_flow_armaly",
+ "pass_mark": "Fixed on 2026-10-09 before any circle of Figure 4 was read as a number (protocol SHA-256 dd3abc9bbc833852f0a53c3201994edaf23a2bd45edccf3ae3016136c3afce1a). On every circle of Figure 4 at a station downstream of the step: root mean square difference of u/Umax at most 0.05; at no single station more than 0.08; and at most half that of this solver run at Reynolds number 100 on the same circles. Baselines scored beside it: the developed parabola, the solver at Reynolds number 100, and the solver at 259.33, the other reading of the memorandum's Reynolds number. The two reattachment lengths are not held back: both the quoted values and the solver's were known before a mark was drawn, at 10 percent of the quoted value.",
+ "sha256": "dd3abc9bbc833852f0a53c3201994edaf23a2bd45edccf3ae3016136c3afce1a"
+}
