@@ -1,0 +1,5 @@
+{
+ "model": "materials/creep_cmsx6",
+ "pass_mark": "Fixed before any curve was fitted (pre-registration SHA-256 f20f99b0e3419d66201a3e124b5c216c4d138d41f976b19d6a536daf15316d87, with two numbered amendments made before the held-back tests were read, and a third, a correction of the forecast, made after they were scored): over the six held-back tests, the natural logarithm of the card's time over the measured time to reach 0.1, 0.2, 0.5, 1, 2 and 5 percent creep extension, root mean square at most 0.15, worst at most 0.30, mean at most 0.10 in size.",
+ "sha256": "f20f99b0e3419d66201a3e124b5c216c4d138d41f976b19d6a536daf15316d87"
+}
