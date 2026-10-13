@@ -1,0 +1,5 @@
+{
+ "model": "propeller_apc_10x7e",
+ "pass_mark": "Fixed on 2026-10-09 before any held-back number was read. An error is the solver less the measurement as a percentage of full scale, full scale being the largest measured value in the fitted sweeps (thrust coefficient 0.1071, power coefficient 0.0528); a percentage of the reading is not used because the thrust passes through zero. Line A, the four held-back sweeps: mean absolute error over thrust and power coefficients together at most 4.0 percent of full scale and no value beyond 10.0. Line B, the run at zero airspeed between 4000 and 6600 rev/min: the same two marks.",
+ "sha256": "dbe10f7246bea774fc7fb9d64e4c4173efad6d08a0d2530bbd239c30392b86d2"
+}
