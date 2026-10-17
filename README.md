@@ -1,6 +1,6 @@
 # Zero-Trust Physics: pass marks
 
-Zero-Trust Physics is a physics verifier for Super Intelligence (SI). Each of its models is a model of one real thing, compared with measurements it was not fitted to. A pass mark is the line the model has to meet in that comparison.
+Zero-Trust Physics is a physics verifier for Super Intelligence (SI). Most of its models are models of one real thing, compared with measurements of that thing. A pass mark is the line the model has to meet in that comparison, and each one here was posted before the measurements it is held to were opened.
 
 Each file under `marks/` is one model's pass mark:
 
