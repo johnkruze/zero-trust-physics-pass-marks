@@ -1,0 +1,17 @@
+-rw-r--r--    1 9000     9000       244055 Oct 20 12:42 asi.orb.lageos1.261010.v80.sp3.gz
+-rw-r--r--    1 9000     9000       244055 Oct 20 13:22 asi.orb.lageos1.261010.v90.sp3.gz
+-rw-r--r--    1 9000     9000       243909 Oct 20 06:04 bkg.orb.lageos1.261010.v80.sp3.gz
+-rw-r--r--    1 9000     9000       243885 Oct 20 09:13 bkg.orb.lageos1.261010.v90.sp3.gz
+-rw-r--r--    1 9000     9000       244028 Oct 20 13:13 cnes.orb.lageos1.261010.v80.sp3.gz
+-rw-r--r--    1 9000     9000       243896 Oct 20 13:34 cnes.orb.lageos1.261010.v90.sp3.gz
+-rw-r--r--    1 9000     9000       244109 Oct 20 08:21 dgfi.orb.lageos1.261010.v80.sp3.gz
+-rw-r--r--    1 9000     9000       244028 Oct 20 08:31 dgfi.orb.lageos1.261010.v90.sp3.gz
+-rw-r--r--    1 9000     9000       254939 Oct 20 02:46 esa.orb.lageos1.261010.v80.sp3.gz
+-rw-r--r--    1 9000     9000       255068 Oct 20 02:46 esa.orb.lageos1.261010.v90.sp3.gz
+-rw-r--r--    1 9000     9000       237333 Oct 20 19:04 gfz.orb.lageos1.261010.v80.sp3.gz
+-rw-r--r--    1 9000     9000       237377 Oct 20 21:12 gfz.orb.lageos1.261010.v90.sp3.gz
+-rw-r--r--    1 9000     9000       243989 Oct 21 12:07 ilrsa.orb.lageos1.261010.v80.sp3.gz
+-rw-r--r--    1 9000     9000       249037 Oct 20 16:12 jcet.orb.lageos1.261010.v80.sp3.gz
+-rw-r--r--    1 9000     9000       249045 Oct 21 00:16 jcet.orb.lageos1.261010.v90.sp3.gz
+-rw-r--r--    1 9000     9000       219303 Oct 20 01:46 nsgf.orb.lageos1.261010.v80.sp3.gz
+-rw-r--r--    1 9000     9000       219211 Oct 20 01:46 nsgf.orb.lageos1.261010.v90.sp3.gz
