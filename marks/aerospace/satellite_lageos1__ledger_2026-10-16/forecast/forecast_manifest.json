@@ -1,0 +1,288 @@
+{
+ "what": "part A of validation_protocol.md: the served card's forecast from the latest published state",
+ "computed_utc": "2026-10-16T05:34:22Z",
+ "engine": "genesis_workspace/.build_2026-10-15/prospective/target/release/mcp_stdio",
+ "engine_sha256": "511327569d0689f12f2b4d1026de0d1a45f5aad0a729a337e603be8649ee3a54",
+ "engine_server": {
+  "name": "Zero-Trust Physics",
+  "title": "Zero-Trust Physics: a physics verifier for Super Intelligence",
+  "version": "0.12.0",
+  "description": "genesis_kernel_v0.11.0",
+  "websiteUrl": "https://zerotrustphysics.com"
+ },
+ "bulletin_a": "evidence/research/lageos1_orbit/ledger_2026-10-16/raw/iers/finals2000A.daily",
+ "bulletin_a_sha256": "3a90113339dc3dd726867d9541d4a8468535b7e1ec9d3966d6c01166a81b6d89",
+ "program": "evidence/research/lageos1_orbit/ledger_2026-10-16/analysis/30_forecast.py",
+ "program_sha256": "202a0552ea2a5c7c779f2666093acc65b65bb06144d9b2865db835c52da54463",
+ "shared_module_sha256": "476b107820e44f6758c5bc83d2fdef486d3960bfa2bc0490bbeb59486afd50ab",
+ "satellites": {
+  "lageos1": {
+   "start_file": "evidence/research/lageos1_orbit/ledger_2026-10-16/raw/edc_start_week_261003/lageos1/gfz.orb.lageos1.261003.v80.sp3.gz",
+   "start_file_sha256": "66f171d347d0de7316ab29815fca287689b79a5ed16082a6a1ae9907a534a3db",
+   "start_epoch_utc": "2026-10-04T00:00:00Z",
+   "start_record_index": 5040,
+   "start_file_epochs": 5041,
+   "start_position_itrf_m": [
+    10037273.879,
+    1762628.864,
+    -6799588.149999999
+   ],
+   "start_velocity_itrf_m_s": [
+    -2335.4877696,
+    -3527.598147,
+    -4324.7013112
+   ],
+   "velocity_record_check": {
+    "slow_rate_share": 0.000404024454869841,
+    "day_length_share": 0.003897882040096041,
+    "fixed_rate_offset_parts_per_1e8": -0.0039521518306799095,
+    "median_misfit_mm_s": 0.005948471850297225,
+    "passes": true
+   },
+   "initial": {
+    "epoch_utc_s": 844344000.0,
+    "forecast_elapsed_s": 0.0,
+    "position_m": [
+     10037279.556667194,
+     1762618.1980166798,
+     -6799582.533745239
+    ],
+    "velocity_m_s": [
+     -2335.484193752763,
+     -3527.6049343930795,
+     -4324.697780872672
+    ]
+   },
+   "initial_hex": {
+    "epoch_utc_s": "41c929d560000000",
+    "position_m": [
+     "41632503f1d037b8",
+     "413ae53a32b1389c",
+     "c159f037a228e1ca"
+    ],
+    "velocity_m_s": [
+     "c0a23ef7e83e5a17",
+     "c0ab8f35b9f5f501",
+     "c0b0e4b2a1c46be7"
+    ]
+   },
+   "card_frame": {
+    "q0_hex": [
+     [
+      "3feffff8d28fa53f",
+      "be38118e0c1e2e66",
+      "bf656ec2d645c577"
+     ],
+     [
+      "be74b4039002666f",
+      "3fefffffffbb4a03",
+      "bf00940f3e6c5172"
+     ],
+     [
+      "3f656ec2d61dfc47",
+      "3f0094127564297d",
+      "3feffff8d24aef4e"
+     ]
+    ],
+    "era0_hex": "3fcb9adbb1f2d800"
+   },
+   "steps": 60480,
+   "dt_s": 10.0,
+   "record_every": 12,
+   "outcome": "completed",
+   "steps_landed": 60480,
+   "frames": 5040,
+   "frames_in_earth_shadow": 529,
+   "frames_below_compared_radius": 0,
+   "run_seal": "9bcfff3508039acd262f90c4439a223ecd0af6944db86728a853e036a3fd9b72",
+   "receipt_sha256": "8224ebaf96326cd5904cbffe181bba0c51ebd4c38056a09303ed4eb797edcaf7",
+   "state_digest": "89074c5cdeb8a52ce6c01dbc758333788bc39fba0e05c675abef85fc29dfebca",
+   "engine_version": "genesis_kernel_v0.11.0",
+   "tape_holds": true,
+   "max_residual": 1.4637310464364364e-11,
+   "final_state": {
+    "t_s": 604800.0,
+    "epoch_utc_s": 844948800.0,
+    "forecast_elapsed_s": 604800.0,
+    "position_m": [
+     2537501.152024993,
+     5073211.968046634,
+     10934277.101950979
+    ],
+    "position_m_hex": [
+     "41435c0e93758e13",
+     "41535a4efdf479df",
+     "4164db00a3432eb3"
+    ],
+    "velocity_m_s": [
+     5633.64941487014,
+     989.8114199913654,
+     -1770.784105838167
+    ],
+    "velocity_m_s_hex": [
+     "40b601a6400d8cca",
+     "408eee7dc9c3b1e1",
+     "c09bab22eca40e1f"
+    ],
+    "radius_m": 12318068.3352346
+   },
+   "files": {
+    "lageos1_forecast_request.json": "3ec441ea25e0bf80f0f9c19051c5d858bb750b9eb5584cbe9e217696a8d87761",
+    "lageos1_forecast_answer.json": "7ceac42b1c77faf14e80a3e12478a6242c31dfc5155ea2a8ac8664f1ace88b6e",
+    "lageos1_forecast_verify_tape.json": "7135fed2e8f3caee8604d2cdce28879bd875a54f00808c55e3bf4b3065d1740e",
+    "lageos1_forecast_positions.csv": "e41fbd6aad2703ae1bbe8644cf72a0340b071191617e9460b41a091122df90fd"
+   },
+   "predicted_itrf_m_at": {
+    "2026-10-04T03:46:00Z": [
+     6883145.320379333,
+     -7392819.304509463,
+     -6931057.852834877
+    ],
+    "2026-10-05T00:00:00Z": [
+     -11122719.373664938,
+     -5094385.501147728,
+     -810805.4218590165
+    ],
+    "2026-10-10T23:58:00Z": [
+     1859119.6097228925,
+     4940964.923223666,
+     11129893.746518023
+    ]
+   }
+  },
+  "lageos2": {
+   "start_file": "evidence/research/lageos1_orbit/ledger_2026-10-16/raw/edc_start_week_261003/lageos2/gfz.orb.lageos2.261003.v80.sp3.gz",
+   "start_file_sha256": "584768128f770fde70befe98ccc8ff9b57ffc3f012393c46e59aa0817bf577af",
+   "start_epoch_utc": "2026-10-04T00:00:00Z",
+   "start_record_index": 5040,
+   "start_file_epochs": 5041,
+   "start_position_itrf_m": [
+    1505230.256,
+    7337643.748000001,
+    -9393076.103
+   ],
+   "start_velocity_itrf_m_s": [
+    -5194.1069346,
+    25.6624847,
+    -855.0214915000001
+   ],
+   "velocity_record_check": {
+    "slow_rate_share": 0.00031391699700254153,
+    "day_length_share": 0.0007591034665189344,
+    "fixed_rate_offset_parts_per_1e8": -0.0015828623553039254,
+    "median_misfit_mm_s": 0.005976578162684213,
+    "passes": true
+   },
+   "initial": {
+    "epoch_utc_s": 844344000.0,
+    "forecast_elapsed_s": 0.0,
+    "position_m": [
+     1505238.0995434925,
+     7337629.01456205,
+     -9393086.355465433
+    ],
+    "velocity_m_s": [
+     -5194.1062674226705,
+     25.661142223977933,
+     -855.0258775506326
+    ]
+   },
+   "initial_hex": {
+    "epoch_utc_s": "41c929d560000000",
+    "position_m": [
+     "4136f7d6197baead",
+     "415bfda740ee95aa",
+     "c161ea77cb5ff90b"
+    ],
+    "velocity_m_s": [
+     "c0b44a1b34578100",
+     "4039a9409de5fd6c",
+     "c08ab834ff4a0d57"
+    ]
+   },
+   "card_frame": {
+    "q0_hex": [
+     [
+      "3feffff8d28fa53f",
+      "be38118e0c1e2e66",
+      "bf656ec2d645c577"
+     ],
+     [
+      "be74b4039002666f",
+      "3fefffffffbb4a03",
+      "bf00940f3e6c5172"
+     ],
+     [
+      "3f656ec2d61dfc47",
+      "3f0094127564297d",
+      "3feffff8d24aef4e"
+     ]
+    ],
+    "era0_hex": "3fcb9adbb1f2d800"
+   },
+   "steps": 60480,
+   "dt_s": 10.0,
+   "record_every": 12,
+   "outcome": "completed",
+   "steps_landed": 60480,
+   "frames": 5040,
+   "frames_in_earth_shadow": 869,
+   "frames_below_compared_radius": 0,
+   "run_seal": "f9905867dab9b04a8edcbefc0493d0cd78651fffe8bcb744e2332400e55287e8",
+   "receipt_sha256": "e8240d4686e7780db99df42891a4ec465a740b8c5405c17c3289e47e27bfd720",
+   "state_digest": "d8c66da42ec270e9c107d9d038aeb63adb21a1495e5641a67a27ec07252512d9",
+   "engine_version": "genesis_kernel_v0.11.0",
+   "tape_holds": true,
+   "max_residual": 6.0634919195927065e-12,
+   "final_state": {
+    "t_s": 604800.0,
+    "epoch_utc_s": 844948800.0,
+    "forecast_elapsed_s": 604800.0,
+    "position_m": [
+     -12007758.60941097,
+     -631719.0154747602,
+     2504920.520585135
+    ],
+    "position_m_hex": [
+     "c166e729d3804b6f",
+     "c123474e07ec4eca",
+     "41431c6c42a288a1"
+    ],
+    "velocity_m_s": [
+     994.692219056277,
+     -2587.3505592985516,
+     4366.215664799635
+    ],
+    "velocity_m_s_hex": [
+     "408f1589aa250306",
+     "c0a436b37c82252d",
+     "40b10e3735ceed55"
+    ],
+    "radius_m": 12282506.36274389
+   },
+   "files": {
+    "lageos2_forecast_request.json": "3cb08c1fcdc367c2d4374686c5693b47bd8d8887eaf4450512058c440c1cd773",
+    "lageos2_forecast_answer.json": "9325c87cf9e3d7d240359816054ab96e35a5c33a614bb234c8282461bee9c436",
+    "lageos2_forecast_verify_tape.json": "20d1541109ba383b563e0dd8c5a5b93103612ae2a949deeee30e896cf145449a",
+    "lageos2_forecast_positions.csv": "57647739e1053c648d9d8d9ea772340ed455cbc7031f386dc232bc9508a42fd3"
+   },
+   "predicted_itrf_m_at": {
+    "2026-10-04T03:46:00Z": [
+     6276372.779599725,
+     3791790.7254458526,
+     -9526550.837109901
+    ],
+    "2026-10-05T00:00:00Z": [
+     -3919429.574240531,
+     -7248836.008425028,
+     9156643.367712492
+    ],
+    "2026-10-10T23:58:00Z": [
+     -12111627.00821456,
+     -321403.4320439496,
+     1977357.3483099595
+    ]
+   }
+  }
+ }
+}
