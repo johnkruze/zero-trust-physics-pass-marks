@@ -16,7 +16,16 @@ Once a target has been compared with its measurements, the result is added in a 
 
 | Target | Result |
 |---|---|
-| [`aerospace/satellite_lageos1__ledger_2026-10-16`](marks/aerospace/satellite_lageos1__ledger_2026-10-16.json) | [34 of 34 inside their targets](marks/aerospace/satellite_lageos1__ledger_2026-10-16/RESULT.md). LAGEOS-1 0.097 m after one revolution (target 1 m), 0.274 m after one day (10 m), 3.526 m after seven days (100 m), against orbits published three and four days after the target. |
+| [`aerospace/satellite_lageos1__ledger_2026-10-16`](marks/aerospace/satellite_lageos1__ledger_2026-10-16.json) | [34 of 34 inside their targets](marks/aerospace/satellite_lageos1__ledger_2026-10-16/RESULT.md). LAGEOS-1 0.097 m after one revolution (target 1 m), 0.274 m after one day (10 m), 3.526 m after seven days (100 m), against orbits published three and four days after the target. [Replay it](marks/aerospace/satellite_lageos1__ledger_2026-10-16/REPLAY.md): the one call, and the distance from the published orbit. |
+
+## Replays
+
+A replay is a result put in calls an agent can make at the open address, with the files that join each call to what it is compared with.
+
+| Model | Replay |
+|---|---|
+| `aerospace/satellite_lageos1` | [The LAGEOS forecast](marks/aerospace/satellite_lageos1__ledger_2026-10-16/REPLAY.md): the call that reproduces the sealed forecast's final position to the bit, and `distance.py` against the ILRS orbit. |
+| `ablator_slab` | [Against NASA's FIAT and the Stardust flight](marks/ablator_slab/REPLAY.md): Ablation Workshop Test Case 1 within 0.633 percent root mean square of FIAT; Stardust wear 7.58 and 3.32 mm against 5.7 and 3.2 measured. No target was posted for these. |
 
 ## Verifying a target's date
 
@@ -26,6 +35,6 @@ Every target here is added through GitHub itself, one target to a commit, so the
 
 - The address: `https://mcp.zerotrustphysics.com/mcp`. Open to any agent.
 - The site: https://zerotrustphysics.com
-- The paper: https://doi.org/10.5281/zenodo.23305697
+- The paper: https://doi.org/10.5281/zenodo.23517223
 - The verifier's source: https://github.com/johnkruze/zero-trust-physics-engine
 - John Kruze: kruze@zerotrustphysics.com
