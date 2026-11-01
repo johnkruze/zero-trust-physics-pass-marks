@@ -1,6 +1,6 @@
 # Zero-Trust Physics: targets
 
-Zero-Trust Physics is a physics verifier for Super Intelligence (SI). Most of its models are models of one real thing, compared with measurements of that thing. A target is the number that comparison is stated against.
+Zero-Trust Physics is a deterministic physics runtime with a proof on every answer. Most of its models are models of one real thing, compared with measurements of that thing. A target is the number that comparison is stated against.
 
 **When each target was posted.** GitHub's date on a target witnesses when it was posted, and nothing earlier. The 35 targets added on 13 October 2026 were posted after the comparisons they state: by our own records, 33 of them were scored between 6 and 11 October; the TRIGA fuel element (`fuel_rod_triga_jsi`) was scored after it was posted, on 18 October; for `fusion_pb11_thermal` our records give no scoring date. Since 16 October every new target is posted before its data are opened or exist: the LAGEOS forecast (posted 17 October, scored 22 October against orbits published 21 October, 34 of 34 inside) and Curiosity's generator (`generator_mmrtg_seebeck`, posted 17 October, waiting for its data).
 
