@@ -1,0 +1,1 @@
+{"domain": "aerospace", "card": "satellite_lageos1", "initial": {"epoch_utc_s": 844344000.0, "forecast_elapsed_s": 0.0, "position_m": [1505238.0995434925, 7337629.01456205, -9393086.355465433], "velocity_m_s": [-5194.1062674226705, 25.661142223977933, -855.0258775506326]}, "dt_s": 10.0, "segments": [{"steps": 60480, "load": {}}], "record_every": 12}

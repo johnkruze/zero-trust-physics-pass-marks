@@ -1,0 +1,5 @@
+{
+ "model": "seawater_column",
+ "pass_mark": "Fixed on 2026-10-09 before any number of a held-back leg was read. The scored number at a station is the solver's echo-sounder depth less the reading. Over all scored stations of the ten held-back legs: the median within 10 m, and at least 0.80 of the stations within 20 m. For each held-back leg with 20 or more scored stations: its median within 15 m. The solver passes when all three hold. Medians, because the sounder's errors are one-sided: it hears the shallowest point inside its beam.",
+ "sha256": "be5f2fa440850337b4b2b639062e4d3767863b32a14a1977d29ced17bee7c817"
+}

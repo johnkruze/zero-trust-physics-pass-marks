@@ -1,0 +1,5 @@
+{
+ "model": "signal/cantilever_eth",
+ "pass_mark": "Fixed before any scoring (pre-registration SHA-256 d081cc5ae51b5de4a028cd17b4e1ae80b402f71fdc786f82876713f3b925d4a6), on the blocks between 12 s and 24 s of the held-back ring-down: amplitude error at most 5.0 percent, frequency error at most 0.010 Hz, timing error at most 0.20 of a period by 24 s, and the amplitude error and the frequency error each at most one third of a plain damped oscillator's.",
+ "sha256": "d081cc5ae51b5de4a028cd17b4e1ae80b402f71fdc786f82876713f3b925d4a6"
+}

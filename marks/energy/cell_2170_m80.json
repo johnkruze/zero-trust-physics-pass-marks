@@ -1,0 +1,5 @@
+{
+ "model": "energy/cell_2170_m80",
+ "pass_mark": "Fixed before any constant was fitted (protocol SHA-256 488fe0af60bbb68be465106ae5fe368b7780f331e8ea5c87e8ac523e6ab984fa, with its Amendment 1). On each held-back discharge at a held current: voltage error at most 42 millivolts root mean square, delivered capacity within 3 percent, and the run ended by the card's own 2.8 V limit. On each held-back drive cycle: voltage error at most 42 millivolts root mean square, the card still running at the last sample, and the error at the last sample at most 126 millivolts. The same marks at all six temperatures, with a verdict for each temperature.",
+ "sha256": "488fe0af60bbb68be465106ae5fe368b7780f331e8ea5c87e8ac523e6ab984fa"
+}

@@ -1,0 +1,5 @@
+{
+ "model": "fusion_pb11_thermal",
+ "pass_mark": "Eight gated lines. Five against published calculations, each the largest difference from the published value as a fraction of it: electron temperature at 300 keV, 13 percent boron, 0.05; largest fusion power over bremsstrahlung, 15 percent boron, 0.02; ion temperature of that maximum, 0.10; fusion less bremsstrahlung over fusion at 300 keV, 13 percent boron, 0.50; share of the alpha energy given to electrons at 300 keV, 0.50. Two against the research's own plain-Python model: 5 percent on the electron temperature and 5 percent on synchrotron over fusion power. One on energy and charge closure: 1e-12. Fixed 2026-10-09T20:51:55Z, SHA-256 8bd91c5c1328f461a268ccca6dc0f31c61b11ab95051da1fe260fe5c2841db90 of validation_protocol.md, before any forecast was run.",
+ "sha256": "8bd91c5c1328f461a268ccca6dc0f31c61b11ab95051da1fe260fe5c2841db90"
+}

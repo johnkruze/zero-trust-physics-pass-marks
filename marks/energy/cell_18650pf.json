@@ -1,0 +1,5 @@
+{
+ "model": "energy/cell_18650pf",
+ "pass_mark": "Fixed before any result was seen: terminal voltage within 50 millivolts and delivered capacity within 3 percent.",
+ "sha256": "045d5e3ac26e1e2a73d2745a5ec3d361296b4256a92ecc6c67b2f1f7a166e622"
+}

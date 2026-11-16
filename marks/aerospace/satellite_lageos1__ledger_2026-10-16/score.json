@@ -1,0 +1,1249 @@
+{
+ "program": "evidence/research/lageos1_orbit/ledger_2026-10-16/analysis/31_score.py",
+ "program_sha256": "4461faad90b2c14c6033401f97dd4cdf7a031622e6fc198c116151cb83b366fe",
+ "shared_module_sha256": "476b107820e44f6758c5bc83d2fdef486d3960bfa2bc0490bbeb59486afd50ab",
+ "engine": "evidence/verification/engine_0.12.0_served/mcp_stdio",
+ "engine_sha256": "fec124af6940a02d2eb617423f4cb00f8c503ce432be0864a02cc6dd7453d241",
+ "engine_server": {
+  "name": "Zero-Trust Physics",
+  "title": "Zero-Trust Physics: a physics verifier for Super Intelligence",
+  "version": "0.12.0",
+  "description": "genesis_kernel_v0.11.0",
+  "websiteUrl": "https://zerotrustphysics.com"
+ },
+ "bulletin_a": "evidence/research/lageos1_orbit/ledger_2026-10-16/raw/iers/finals2000A.daily",
+ "bulletin_a_sha256": "3a90113339dc3dd726867d9541d4a8468535b7e1ec9d3966d6c01166a81b6d89",
+ "forecast_manifest_sha256": "d2ccadba5feef0deb8de36e83111ea0dc634b22c890ae38aca31ceb1bb7903a5",
+ "gates_m": {
+  "one_revolution": 1.0,
+  "one_day": 10.0,
+  "seven_days": 100.0
+ },
+ "horizons_s": {
+  "one_revolution": 13560.0,
+  "one_day": 86400.0,
+  "three_days": 259200.0,
+  "seven_days": 604680.0
+ },
+ "started_utc": "2026-10-22T03:04:11Z",
+ "satellites": {
+  "lageos1": {
+   "files": {
+    "_ftp_listing_2026-10-22T030334Z.txt": "42ec1d950a13ce6e8cda70aa641f1ee489fa7ee270b3dd2b823e29315e03acf3",
+    "gfz.orb.lageos1.261010.v80.sp3.gz": "ef5e1f298d5c9932458ae5aa705f6a22dc3c738cb469e1f785f9c9afeaa9d805",
+    "ilrsa.orb.lageos1.261010.v80.sp3.gz": "0c95e694376ac111dc502b71225951c8c4d47b96dfbd0339da60ca3e3d4aad4f"
+   },
+   "reference_choice": {
+    "ilrsa": "used"
+   },
+   "reference": {
+    "centre": "ilrsa",
+    "file": "evidence/verification/lageos_forecast_2026-10-04/data/lageos1/ilrsa.orb.lageos1.261010.v80.sp3.gz"
+   },
+   "part_a": {
+    "run_seal": "9bcfff3508039acd262f90c4439a223ecd0af6944db86728a853e036a3fd9b72",
+    "tape_holds_short": true,
+    "tape_holds_long": true,
+    "card_frame_recomputed_bit_for_bit": true,
+    "frames": 5040,
+    "frames_in_earth_shadow": 529,
+    "frames_below_compared_radius": 0,
+    "score": {
+     "one_revolution": {
+      "horizon_s": 13560.0,
+      "epochs_expected": 113,
+      "epochs_scored": 113,
+      "reached": true,
+      "epochs": 113,
+      "three_d_max_m": 0.09662176486234289,
+      "three_d_rms_m": 0.07604016294487373,
+      "three_d_at_end_m": 0.057842609271543895,
+      "radial_max_m": 0.021223393965794278,
+      "along_max_m": 0.08714303130382607,
+      "cross_max_m": 0.08691997616884198,
+      "against_start_centre_own_orbit_three_d_max_m": 0.1060491916038495,
+      "gate_m": 1.0,
+      "pass": true
+     },
+     "one_day": {
+      "horizon_s": 86400.0,
+      "epochs_expected": 720,
+      "epochs_scored": 720,
+      "reached": true,
+      "epochs": 720,
+      "three_d_max_m": 0.274273658383437,
+      "three_d_rms_m": 0.14438786213951407,
+      "three_d_at_end_m": 0.22668349995477477,
+      "radial_max_m": 0.05171675857198702,
+      "along_max_m": 0.2733678959068746,
+      "cross_max_m": 0.1689951721564589,
+      "against_start_centre_own_orbit_three_d_max_m": 0.267855325009547,
+      "gate_m": 10.0,
+      "pass": true
+     },
+     "three_days": {
+      "horizon_s": 259200.0,
+      "epochs_expected": 2160,
+      "epochs_scored": 2160,
+      "reached": true,
+      "epochs": 2160,
+      "three_d_max_m": 0.8525929070348194,
+      "three_d_rms_m": 0.35859148085619275,
+      "three_d_at_end_m": 0.2921566807623577,
+      "radial_max_m": 0.08291415232454523,
+      "along_max_m": 0.4655851390786397,
+      "cross_max_m": 0.8507672266289429,
+      "against_start_centre_own_orbit_three_d_max_m": 0.860851261156197
+     },
+     "seven_days": {
+      "horizon_s": 604680.0,
+      "epochs_expected": 5039,
+      "epochs_scored": 5039,
+      "reached": true,
+      "epochs": 5039,
+      "three_d_max_m": 3.525546491245061,
+      "three_d_rms_m": 1.2827351982219812,
+      "three_d_at_end_m": 3.5161789360149087,
+      "radial_max_m": 0.10183537946174293,
+      "along_max_m": 0.4655851390786397,
+      "cross_max_m": 3.5172462443882253,
+      "against_start_centre_own_orbit_three_d_max_m": 3.524814325503648,
+      "gate_m": 100.0,
+      "pass": true
+     }
+    },
+    "passes": true
+   },
+   "part_b": {
+    "velocity_record_check": {
+     "slow_rate_share": 0.00015728129670391835,
+     "day_length_share": -0.0016695472904084986,
+     "fixed_rate_offset_parts_per_1e8": 0.0017888605609027858,
+     "median_misfit_mm_s": 0.005922822836739385,
+     "passes": true
+    },
+    "runs": [
+     {
+      "start_day": 0,
+      "start_utc": "MJD 61317 0 h",
+      "steps": 60480,
+      "initial": {
+       "epoch_utc_s": 844344000.0,
+       "forecast_elapsed_s": 0.0,
+       "position_m": [
+        10037279.536667213,
+        1762618.1660166425,
+        -6799582.557745206
+       ],
+       "velocity_m_s": [
+        -2335.4842214527666,
+        -3527.604919493073,
+        -4324.69777787272
+       ]
+      },
+      "outcome": "completed",
+      "steps_landed": 60480,
+      "reject": null,
+      "run_seal": "1bdd6041420eec5c3624c1b6381fd8fd4eaff74224235accc526803d718839cf",
+      "tape_holds": true,
+      "frames": 5040,
+      "frames_in_earth_shadow": 529,
+      "frames_below_compared_radius": 0,
+      "score": {
+       "one_revolution": {
+        "horizon_s": 13560.0,
+        "epochs_expected": 113,
+        "epochs_scored": 113,
+        "reached": true,
+        "epochs": 113,
+        "three_d_max_m": 0.11970585544578738,
+        "three_d_rms_m": 0.07868061462588329,
+        "three_d_at_end_m": 0.11069721189389774,
+        "radial_max_m": 0.02630269430437114,
+        "along_max_m": 0.11242026430637356,
+        "cross_max_m": 0.052500444956104626,
+        "against_start_centre_own_orbit_three_d_max_m": 0.14356539628045428,
+        "gate_m": 1.0,
+        "pass": true
+       },
+       "one_day": {
+        "horizon_s": 86400.0,
+        "epochs_expected": 720,
+        "epochs_scored": 720,
+        "reached": true,
+        "epochs": 720,
+        "three_d_max_m": 0.3177569130366213,
+        "three_d_rms_m": 0.19123767855798388,
+        "three_d_at_end_m": 0.3177569130366213,
+        "radial_max_m": 0.05654936485442755,
+        "along_max_m": 0.30121275863815883,
+        "cross_max_m": 0.13029100650603206,
+        "against_start_centre_own_orbit_three_d_max_m": 0.34185274874127736,
+        "gate_m": 10.0,
+        "pass": true
+       },
+       "three_days": {
+        "horizon_s": 259200.0,
+        "epochs_expected": 2160,
+        "epochs_scored": 2160,
+        "reached": true,
+        "epochs": 2160,
+        "three_d_max_m": 1.433087152156031,
+        "three_d_rms_m": 0.6307041344617307,
+        "three_d_at_end_m": 1.1030249194199788,
+        "radial_max_m": 0.08341850853642174,
+        "along_max_m": 1.229674315792608,
+        "cross_max_m": 0.8093450434479533,
+        "against_start_centre_own_orbit_three_d_max_m": 1.452882217544803
+       },
+       "seven_days": {
+        "horizon_s": 604680.0,
+        "epochs_expected": 5039,
+        "epochs_scored": 5039,
+        "reached": true,
+        "epochs": 5039,
+        "three_d_max_m": 4.275348822682034,
+        "three_d_rms_m": 2.0518540696580736,
+        "three_d_at_end_m": 4.275348822682034,
+        "radial_max_m": 0.09737023002072998,
+        "along_max_m": 2.755664722415623,
+        "cross_max_m": 3.4741323729175795,
+        "against_start_centre_own_orbit_three_d_max_m": 4.283898289906651,
+        "gate_m": 100.0,
+        "pass": true
+       }
+      },
+      "answer_sha256": "a968398d6dc16eceefce84f6833bbd7e3a5a40cf19b5688b99d3f902ae4c68d0"
+     },
+     {
+      "start_day": 1,
+      "start_utc": "MJD 61318 0 h",
+      "steps": 25920,
+      "initial": {
+       "epoch_utc_s": 844430400.0,
+       "forecast_elapsed_s": 0.0,
+       "position_m": [
+        -11122718.838922147,
+        -5094386.598396181,
+        -810806.6128722923
+       ],
+       "velocity_m_s": [
+        -1521.0191597327002,
+        2416.9536188409757,
+        5352.31733592353
+       ]
+      },
+      "outcome": "completed",
+      "steps_landed": 25920,
+      "reject": null,
+      "run_seal": "bcb686af22ae304c38543c95c690fe46acaec25dcd6c85f612a753fcf96e45b9",
+      "tape_holds": true,
+      "frames": 2160,
+      "frames_in_earth_shadow": 221,
+      "frames_below_compared_radius": 0,
+      "score": {
+       "one_revolution": {
+        "horizon_s": 13560.0,
+        "epochs_expected": 113,
+        "epochs_scored": 113,
+        "reached": true,
+        "epochs": 113,
+        "three_d_max_m": 0.10310639376192855,
+        "three_d_rms_m": 0.07103729473628494,
+        "three_d_at_end_m": 0.0911289383882219,
+        "radial_max_m": 0.027506699260734815,
+        "along_max_m": 0.10077289421289702,
+        "cross_max_m": 0.074491447435232,
+        "against_start_centre_own_orbit_three_d_max_m": 0.09792737408061677,
+        "gate_m": 1.0,
+        "pass": true
+       },
+       "one_day": {
+        "horizon_s": 86400.0,
+        "epochs_expected": 720,
+        "epochs_scored": 720,
+        "reached": true,
+        "epochs": 720,
+        "three_d_max_m": 0.6984342741630776,
+        "three_d_rms_m": 0.41201656553420507,
+        "three_d_at_end_m": 0.6455155485457315,
+        "radial_max_m": 0.05006355332385584,
+        "along_max_m": 0.6749806117879948,
+        "cross_max_m": 0.23959093125862965,
+        "against_start_centre_own_orbit_three_d_max_m": 0.6767128162686249,
+        "gate_m": 10.0,
+        "pass": true
+       },
+       "three_days": {
+        "horizon_s": 259200.0,
+        "epochs_expected": 2160,
+        "epochs_scored": 2160,
+        "reached": true,
+        "epochs": 2160,
+        "three_d_max_m": 1.7344450571026484,
+        "three_d_rms_m": 0.8373733055637765,
+        "three_d_at_end_m": 1.135964032912291,
+        "radial_max_m": 0.05248663689730107,
+        "along_max_m": 1.1598026151745224,
+        "cross_max_m": 1.3010317227727295,
+        "against_start_centre_own_orbit_three_d_max_m": 1.714721197619098
+       }
+      },
+      "answer_sha256": "ddaa8c8e0451c724850cf5788fd30dfad9fb66eecf803fd01f22b2639aec07e3"
+     },
+     {
+      "start_day": 2,
+      "start_utc": "MJD 61319 0 h",
+      "steps": 25920,
+      "initial": {
+       "epoch_utc_s": 844516800.0,
+       "forecast_elapsed_s": 0.0,
+       "position_m": [
+        6783613.438915791,
+        6062674.928946094,
+        8293986.697612101
+       ],
+       "velocity_m_s": [
+        4708.010809190448,
+        -178.51338622871447,
+        -3737.715372556938
+       ]
+      },
+      "outcome": "completed",
+      "steps_landed": 25920,
+      "reject": null,
+      "run_seal": "e49a73ff37e12aea2799bcf53f229144e5ace27b472493afedb99adceffe9422",
+      "tape_holds": true,
+      "frames": 2160,
+      "frames_in_earth_shadow": 239,
+      "frames_below_compared_radius": 0,
+      "score": {
+       "one_revolution": {
+        "horizon_s": 13560.0,
+        "epochs_expected": 113,
+        "epochs_scored": 113,
+        "reached": true,
+        "epochs": 113,
+        "three_d_max_m": 0.1828868126014614,
+        "three_d_rms_m": 0.12930320932043765,
+        "three_d_at_end_m": 0.1828868126014614,
+        "radial_max_m": 0.039332704671562635,
+        "along_max_m": 0.17476075083288709,
+        "cross_max_m": 0.06461176868670104,
+        "against_start_centre_own_orbit_three_d_max_m": 0.18494206829379556,
+        "gate_m": 1.0,
+        "pass": true
+       },
+       "one_day": {
+        "horizon_s": 86400.0,
+        "epochs_expected": 720,
+        "epochs_scored": 720,
+        "reached": true,
+        "epochs": 720,
+        "three_d_max_m": 1.0670487971977027,
+        "three_d_rms_m": 0.612298903855821,
+        "three_d_at_end_m": 1.0596244233210803,
+        "radial_max_m": 0.049835763226897846,
+        "along_max_m": 1.035929350214725,
+        "cross_max_m": 0.5145098098130089,
+        "against_start_centre_own_orbit_three_d_max_m": 1.0860673024658325,
+        "gate_m": 10.0,
+        "pass": true
+       },
+       "three_days": {
+        "horizon_s": 259200.0,
+        "epochs_expected": 2160,
+        "epochs_scored": 2160,
+        "reached": true,
+        "epochs": 2160,
+        "three_d_max_m": 3.187190144533486,
+        "three_d_rms_m": 1.8340976195657739,
+        "three_d_at_end_m": 2.936650528963777,
+        "radial_max_m": 0.06807456107139442,
+        "along_max_m": 2.7759884557793906,
+        "cross_max_m": 1.7434101763038394,
+        "against_start_centre_own_orbit_three_d_max_m": 3.197052508432394
+       }
+      },
+      "answer_sha256": "cc6fcd4e69965378be242591b09f794a9c3638f1254cca42d4e6d84ce815d3f9"
+     },
+     {
+      "start_day": 3,
+      "start_utc": "MJD 61320 0 h",
+      "steps": 25920,
+      "initial": {
+       "epoch_utc_s": 844603200.0,
+       "forecast_elapsed_s": 0.0,
+       "position_m": [
+        865443.7060666692,
+        -4113776.360339644,
+        -11477837.208746625
+       ],
+       "velocity_m_s": [
+        -5639.557623198239,
+        -2088.7477324883725,
+        325.83771826509894
+       ]
+      },
+      "outcome": "completed",
+      "steps_landed": 25920,
+      "reject": null,
+      "run_seal": "4f9d2d90859b52da165787cd2c518fbeef7622644bb63aa93a374d1cb2cb4f39",
+      "tape_holds": true,
+      "frames": 2160,
+      "frames_in_earth_shadow": 237,
+      "frames_below_compared_radius": 0,
+      "score": {
+       "one_revolution": {
+        "horizon_s": 13560.0,
+        "epochs_expected": 113,
+        "epochs_scored": 113,
+        "reached": true,
+        "epochs": 113,
+        "three_d_max_m": 0.5384328137177272,
+        "three_d_rms_m": 0.37166589039046044,
+        "three_d_at_end_m": 0.533710710609396,
+        "radial_max_m": 0.1186571087694424,
+        "along_max_m": 0.5381408320680588,
+        "cross_max_m": 0.08353062124935358,
+        "against_start_centre_own_orbit_three_d_max_m": 0.5408859614183277,
+        "gate_m": 1.0,
+        "pass": true
+       },
+       "one_day": {
+        "horizon_s": 86400.0,
+        "epochs_expected": 720,
+        "epochs_scored": 720,
+        "reached": true,
+        "epochs": 720,
+        "three_d_max_m": 2.5253335305966385,
+        "three_d_rms_m": 1.5889916616079702,
+        "three_d_at_end_m": 2.5253335305966385,
+        "radial_max_m": 0.1186571087694424,
+        "along_max_m": 2.5226506156798116,
+        "cross_max_m": 0.5611164151982859,
+        "against_start_centre_own_orbit_three_d_max_m": 2.5620524831330833,
+        "gate_m": 10.0,
+        "pass": true
+       },
+       "three_days": {
+        "horizon_s": 259200.0,
+        "epochs_expected": 2160,
+        "epochs_scored": 2160,
+        "reached": true,
+        "epochs": 2160,
+        "three_d_max_m": 7.65229085292799,
+        "three_d_rms_m": 4.441172593378933,
+        "three_d_at_end_m": 7.414758675860699,
+        "radial_max_m": 0.16230685784895504,
+        "along_max_m": 7.485931607218556,
+        "cross_max_m": 2.059481648057549,
+        "against_start_centre_own_orbit_three_d_max_m": 7.666762680971607
+       }
+      },
+      "answer_sha256": "f176656dbe52157044fc4b11122baa44c0a0102198c1c4080a0bea417e7de2ba"
+     },
+     {
+      "start_day": 4,
+      "start_utc": "MJD 61321 0 h",
+      "steps": 8640,
+      "initial": {
+       "epoch_utc_s": 844689600.0,
+       "forecast_elapsed_s": 0.0,
+       "position_m": [
+        -8138481.867240923,
+        394174.2696436152,
+        9219875.789039724
+       ],
+       "velocity_m_s": [
+        3812.7066406682447,
+        3324.7232566640405,
+        3243.931353229285
+       ]
+      },
+      "outcome": "completed",
+      "steps_landed": 8640,
+      "reject": null,
+      "run_seal": "8187ee582858f3281da41ed3fb306e0b592f6f90e70ab31d02d64814de75b212",
+      "tape_holds": true,
+      "frames": 720,
+      "frames_in_earth_shadow": 85,
+      "frames_below_compared_radius": 0,
+      "score": {
+       "one_revolution": {
+        "horizon_s": 13560.0,
+        "epochs_expected": 113,
+        "epochs_scored": 113,
+        "reached": true,
+        "epochs": 113,
+        "three_d_max_m": 0.3761428326974362,
+        "three_d_rms_m": 0.26023360332186085,
+        "three_d_at_end_m": 0.3662160649400254,
+        "radial_max_m": 0.09460176047911012,
+        "along_max_m": 0.36450787717221045,
+        "cross_max_m": 0.09564257260592515,
+        "against_start_centre_own_orbit_three_d_max_m": 0.4086479880853415,
+        "gate_m": 1.0,
+        "pass": true
+       },
+       "one_day": {
+        "horizon_s": 86400.0,
+        "epochs_expected": 720,
+        "epochs_scored": 720,
+        "reached": true,
+        "epochs": 720,
+        "three_d_max_m": 2.10248197901933,
+        "three_d_rms_m": 1.2793142384853287,
+        "three_d_at_end_m": 2.10248197901933,
+        "radial_max_m": 0.1227623657351834,
+        "along_max_m": 2.0945269109006905,
+        "cross_max_m": 0.6936946833462287,
+        "against_start_centre_own_orbit_three_d_max_m": 2.1048224118017047,
+        "gate_m": 10.0,
+        "pass": true
+       }
+      },
+      "answer_sha256": "d1dce8b557ad65a50bff752ef1ea1a02769a18b0d8dcb17b98cd968c1509f076"
+     },
+     {
+      "start_day": 5,
+      "start_utc": "MJD 61322 0 h",
+      "steps": 8640,
+      "initial": {
+       "epoch_utc_s": 844776000.0,
+       "forecast_elapsed_s": 0.0,
+       "position_m": [
+        11550338.299218258,
+        3507131.824925451,
+        -2204566.8520707074
+       ],
+       "velocity_m_s": [
+        -114.31655745111885,
+        -3008.3261967683006,
+        -5259.751068371099
+       ]
+      },
+      "outcome": "completed",
+      "steps_landed": 8640,
+      "reject": null,
+      "run_seal": "952eae9a6ff1296f27d95b7c7b17266cd5a98716288ac7ddb9c9f3ff942af0ed",
+      "tape_holds": true,
+      "frames": 720,
+      "frames_in_earth_shadow": 80,
+      "frames_below_compared_radius": 0,
+      "score": {
+       "one_revolution": {
+        "horizon_s": 13560.0,
+        "epochs_expected": 113,
+        "epochs_scored": 113,
+        "reached": true,
+        "epochs": 113,
+        "three_d_max_m": 0.1711151847250163,
+        "three_d_rms_m": 0.10437619658710026,
+        "three_d_at_end_m": 0.1342514459559672,
+        "radial_max_m": 0.05061901819552617,
+        "along_max_m": 0.13077460836939872,
+        "cross_max_m": 0.12079109607157774,
+        "against_start_centre_own_orbit_three_d_max_m": 0.1678016530446305,
+        "gate_m": 1.0,
+        "pass": true
+       },
+       "one_day": {
+        "horizon_s": 86400.0,
+        "epochs_expected": 720,
+        "epochs_scored": 720,
+        "reached": true,
+        "epochs": 720,
+        "three_d_max_m": 0.7855414578338648,
+        "three_d_rms_m": 0.3535837713890435,
+        "three_d_at_end_m": 0.48571217055686433,
+        "radial_max_m": 0.07869455167886308,
+        "along_max_m": 0.2470717676418636,
+        "cross_max_m": 0.7761311568603423,
+        "against_start_centre_own_orbit_three_d_max_m": 0.7851640330704439,
+        "gate_m": 10.0,
+        "pass": true
+       }
+      },
+      "answer_sha256": "e47fe07eefa8347e89008ac6834c17a923d27735fb48c0d4d939922281771247"
+     },
+     {
+      "start_day": 6,
+      "start_utc": "MJD 61323 0 h",
+      "steps": 1356,
+      "initial": {
+       "epoch_utc_s": 844862400.0,
+       "forecast_elapsed_s": 0.0,
+       "position_m": [
+        -9345041.29494348,
+        -5563522.817365895,
+        -5621312.153817294
+       ],
+       "velocity_m_s": [
+        -3618.481474061615,
+        1307.173492386436,
+        4682.331705384592
+       ]
+      },
+      "outcome": "completed",
+      "steps_landed": 1356,
+      "reject": null,
+      "run_seal": "e4a96f2aa61bdc9c2b8339667d3eab25ca0fe2bd7c561fb03cedec7b05f45451",
+      "tape_holds": true,
+      "frames": 113,
+      "frames_in_earth_shadow": 13,
+      "frames_below_compared_radius": 0,
+      "score": {
+       "one_revolution": {
+        "horizon_s": 13560.0,
+        "epochs_expected": 113,
+        "epochs_scored": 113,
+        "reached": true,
+        "epochs": 113,
+        "three_d_max_m": 0.21423927760740966,
+        "three_d_rms_m": 0.12109333475159913,
+        "three_d_at_end_m": 0.19653343942769572,
+        "radial_max_m": 0.0585303385222688,
+        "along_max_m": 0.16985179128392192,
+        "cross_max_m": 0.140044311806314,
+        "against_start_centre_own_orbit_three_d_max_m": 0.23025523598692574,
+        "gate_m": 1.0,
+        "pass": true
+       }
+      },
+      "answer_sha256": "b7e9f6da7dd96bf6cf11b4fba7c0d730570f43c8930cbf334650de39bc80db42"
+     }
+    ],
+    "tally": {
+     "one_revolution": {
+      "starts": 7,
+      "passed": 7,
+      "worst_m": 0.5384328137177272
+     },
+     "one_day": {
+      "starts": 6,
+      "passed": 6,
+      "worst_m": 2.5253335305966385
+     },
+     "seven_days": {
+      "starts": 1,
+      "passed": 1,
+      "worst_m": 4.275348822682034
+     }
+    },
+    "passes": true
+   },
+   "verdict": "pass"
+  },
+  "lageos2": {
+   "files": {
+    "_ftp_listing_2026-10-22T030345Z.txt": "108495b17846912d548f25d8b715f69fdd1c1337c91422c41ae6e8556b2d68c9",
+    "gfz.orb.lageos2.261010.v80.sp3.gz": "c386f18c51328cc3c2d862314e3180be56907347606ec89eea8c26becf6f0a0f",
+    "ilrsa.orb.lageos2.261010.v80.sp3.gz": "92bfec1a2372cdf16b945e34edf191a5dc572f723849d815b8a2131ff67de103"
+   },
+   "reference_choice": {
+    "ilrsa": "used"
+   },
+   "reference": {
+    "centre": "ilrsa",
+    "file": "evidence/verification/lageos_forecast_2026-10-04/data/lageos2/ilrsa.orb.lageos2.261010.v80.sp3.gz"
+   },
+   "part_a": {
+    "run_seal": "f9905867dab9b04a8edcbefc0493d0cd78651fffe8bcb744e2332400e55287e8",
+    "tape_holds_short": true,
+    "tape_holds_long": true,
+    "card_frame_recomputed_bit_for_bit": true,
+    "frames": 5040,
+    "frames_in_earth_shadow": 869,
+    "frames_below_compared_radius": 0,
+    "score": {
+     "one_revolution": {
+      "horizon_s": 13560.0,
+      "epochs_expected": 113,
+      "epochs_scored": 113,
+      "reached": true,
+      "epochs": 113,
+      "three_d_max_m": 0.3551334618930828,
+      "three_d_rms_m": 0.24252439206650597,
+      "three_d_at_end_m": 0.3307862099268222,
+      "radial_max_m": 0.07190779757214713,
+      "along_max_m": 0.3545908254595372,
+      "cross_max_m": 0.041659156110016596,
+      "against_start_centre_own_orbit_three_d_max_m": 0.3575489817001734,
+      "gate_m": 1.0,
+      "pass": true
+     },
+     "one_day": {
+      "horizon_s": 86400.0,
+      "epochs_expected": 720,
+      "epochs_scored": 720,
+      "reached": true,
+      "epochs": 720,
+      "three_d_max_m": 1.3477225506873438,
+      "three_d_rms_m": 0.7124000618405297,
+      "three_d_at_end_m": 1.3477225506873438,
+      "radial_max_m": 0.07190779757214713,
+      "along_max_m": 1.3464296693244362,
+      "cross_max_m": 0.14677672006833914,
+      "against_start_centre_own_orbit_three_d_max_m": 1.357271915164051,
+      "gate_m": 10.0,
+      "pass": true
+     },
+     "three_days": {
+      "horizon_s": 259200.0,
+      "epochs_expected": 2160,
+      "epochs_scored": 2160,
+      "reached": true,
+      "epochs": 2160,
+      "three_d_max_m": 4.419398447223218,
+      "three_d_rms_m": 2.3933013933509173,
+      "three_d_at_end_m": 4.402617383502733,
+      "radial_max_m": 0.13533996878751497,
+      "along_max_m": 4.417962002957918,
+      "cross_max_m": 1.2769995864234822,
+      "against_start_centre_own_orbit_three_d_max_m": 4.4355971394820175
+     },
+     "seven_days": {
+      "horizon_s": 604680.0,
+      "epochs_expected": 5039,
+      "epochs_scored": 5039,
+      "reached": true,
+      "epochs": 5039,
+      "three_d_max_m": 11.147586491692577,
+      "three_d_rms_m": 6.125546101359732,
+      "three_d_at_end_m": 11.147586491692577,
+      "radial_max_m": 0.26364433913459884,
+      "along_max_m": 11.147106006933283,
+      "cross_max_m": 2.1181297091143554,
+      "against_start_centre_own_orbit_three_d_max_m": 11.126000651244755,
+      "gate_m": 100.0,
+      "pass": true
+     }
+    },
+    "passes": true
+   },
+   "part_b": {
+    "velocity_record_check": {
+     "slow_rate_share": 2.987725474474032e-05,
+     "day_length_share": 0.004374921508269166,
+     "fixed_rate_offset_parts_per_1e8": -0.006575371481883749,
+     "median_misfit_mm_s": 0.00588092488210538,
+     "passes": true
+    },
+    "runs": [
+     {
+      "start_day": 0,
+      "start_utc": "MJD 61317 0 h",
+      "steps": 60480,
+      "initial": {
+       "epoch_utc_s": 844344000.0,
+       "forecast_elapsed_s": 0.0,
+       "position_m": [
+        1505238.1055434912,
+        7337629.020562052,
+        -9393086.353465436
+       ],
+       "velocity_m_s": [
+        -5194.106263222668,
+        25.661144723972612,
+        -855.0258809506329
+       ]
+      },
+      "outcome": "completed",
+      "steps_landed": 60480,
+      "reject": null,
+      "run_seal": "d84bd5093324f1561a29bccba07e6bb015c4eeee30d7042c1708d8be3b60b4bb",
+      "tape_holds": true,
+      "frames": 5040,
+      "frames_in_earth_shadow": 869,
+      "frames_below_compared_radius": 0,
+      "score": {
+       "one_revolution": {
+        "horizon_s": 13560.0,
+        "epochs_expected": 113,
+        "epochs_scored": 113,
+        "reached": true,
+        "epochs": 113,
+        "three_d_max_m": 0.2872639174481918,
+        "three_d_rms_m": 0.2037007150928956,
+        "three_d_at_end_m": 0.26407936608665833,
+        "radial_max_m": 0.05661881808626211,
+        "along_max_m": 0.28501621831604385,
+        "cross_max_m": 0.04022120573495694,
+        "against_start_centre_own_orbit_three_d_max_m": 0.29103053162705245,
+        "gate_m": 1.0,
+        "pass": true
+       },
+       "one_day": {
+        "horizon_s": 86400.0,
+        "epochs_expected": 720,
+        "epochs_scored": 720,
+        "reached": true,
+        "epochs": 720,
+        "three_d_max_m": 0.9129582906771412,
+        "three_d_rms_m": 0.4596173930799802,
+        "three_d_at_end_m": 0.9129582906771412,
+        "radial_max_m": 0.05661881808626211,
+        "along_max_m": 0.9107116202972414,
+        "cross_max_m": 0.15128236453102148,
+        "against_start_centre_own_orbit_three_d_max_m": 0.9218730095406066,
+        "gate_m": 10.0,
+        "pass": true
+       },
+       "three_days": {
+        "horizon_s": 259200.0,
+        "epochs_expected": 2160,
+        "epochs_scored": 2160,
+        "reached": true,
+        "epochs": 2160,
+        "three_d_max_m": 3.0663015287048845,
+        "three_d_rms_m": 1.5952303918821946,
+        "three_d_at_end_m": 3.045183307108457,
+        "radial_max_m": 0.1454599825895626,
+        "along_max_m": 3.065093084313831,
+        "cross_max_m": 0.9478350124311317,
+        "against_start_centre_own_orbit_three_d_max_m": 3.0829516830553834
+       },
+       "seven_days": {
+        "horizon_s": 604680.0,
+        "epochs_expected": 5039,
+        "epochs_scored": 5039,
+        "reached": true,
+        "epochs": 5039,
+        "three_d_max_m": 7.923343988909884,
+        "three_d_rms_m": 4.268482525056562,
+        "three_d_at_end_m": 7.923343988909884,
+        "radial_max_m": 0.2891684851468478,
+        "along_max_m": 7.922622521135416,
+        "cross_max_m": 2.112605680544209,
+        "against_start_centre_own_orbit_three_d_max_m": 7.901687766953117,
+        "gate_m": 100.0,
+        "pass": true
+       }
+      },
+      "answer_sha256": "bc30c7e4531778dc8dbac9320eb5a5b101cdc4191ffe532de0875822d875c6f6"
+     },
+     {
+      "start_day": 1,
+      "start_utc": "MJD 61318 0 h",
+      "steps": 25920,
+      "initial": {
+       "epoch_utc_s": 844430400.0,
+       "forecast_elapsed_s": 0.0,
+       "position_m": [
+        -3919435.8729459406,
+        -7248821.751389171,
+        9156651.868540792
+       ],
+       "velocity_m_s": [
+        4827.862749602044,
+        -585.2524282795569,
+        1575.8164397219143
+       ]
+      },
+      "outcome": "completed",
+      "steps_landed": 25920,
+      "reject": null,
+      "run_seal": "9789d7d131572e06465c6d593b89ec99b5c0f966eb2a8af8eaea7b8161b10b4d",
+      "tape_holds": true,
+      "frames": 2160,
+      "frames_in_earth_shadow": 389,
+      "frames_below_compared_radius": 0,
+      "score": {
+       "one_revolution": {
+        "horizon_s": 13560.0,
+        "epochs_expected": 113,
+        "epochs_scored": 113,
+        "reached": true,
+        "epochs": 113,
+        "three_d_max_m": 0.11628832197277862,
+        "three_d_rms_m": 0.07065617447714381,
+        "three_d_at_end_m": 0.08607082681663404,
+        "radial_max_m": 0.03100527142751494,
+        "along_max_m": 0.10829489287284537,
+        "cross_max_m": 0.04538320481343615,
+        "against_start_centre_own_orbit_three_d_max_m": 0.12713663880376988,
+        "gate_m": 1.0,
+        "pass": true
+       },
+       "one_day": {
+        "horizon_s": 86400.0,
+        "epochs_expected": 720,
+        "epochs_scored": 720,
+        "reached": true,
+        "epochs": 720,
+        "three_d_max_m": 0.47869594907532387,
+        "three_d_rms_m": 0.2365897033965397,
+        "three_d_at_end_m": 0.29507223747423234,
+        "radial_max_m": 0.07221451957880091,
+        "along_max_m": 0.4779997420293002,
+        "cross_max_m": 0.1036953297668253,
+        "against_start_centre_own_orbit_three_d_max_m": 0.472057584557128,
+        "gate_m": 10.0,
+        "pass": true
+       },
+       "three_days": {
+        "horizon_s": 259200.0,
+        "epochs_expected": 2160,
+        "epochs_scored": 2160,
+        "reached": true,
+        "epochs": 2160,
+        "three_d_max_m": 1.3526017692641121,
+        "three_d_rms_m": 0.6160986500183074,
+        "three_d_at_end_m": 1.2003683450189786,
+        "radial_max_m": 0.2587416568003759,
+        "along_max_m": 1.152468457035845,
+        "cross_max_m": 1.1922904280615412,
+        "against_start_centre_own_orbit_three_d_max_m": 1.3486971249617234
+       }
+      },
+      "answer_sha256": "eaacd67d9a3e25a531e179f336d494e364533f62b1470d45768193939b8fe6c0"
+     },
+     {
+      "start_day": 2,
+      "start_utc": "MJD 61319 0 h",
+      "steps": 25920,
+      "initial": {
+       "epoch_utc_s": 844516800.0,
+       "forecast_elapsed_s": 0.0,
+       "position_m": [
+        5686726.34658238,
+        6535669.424503236,
+        -8302160.69103502
+       ],
+       "velocity_m_s": [
+        -4626.178910117631,
+        1148.9081338730743,
+        -2275.0903154783564
+       ]
+      },
+      "outcome": "completed",
+      "steps_landed": 25920,
+      "reject": null,
+      "run_seal": "8571d67dee9223dda22ab98562d765fe239042b5de3e11692529947ae1bd9408",
+      "tape_holds": true,
+      "frames": 2160,
+      "frames_in_earth_shadow": 367,
+      "frames_below_compared_radius": 0,
+      "score": {
+       "one_revolution": {
+        "horizon_s": 13560.0,
+        "epochs_expected": 113,
+        "epochs_scored": 113,
+        "reached": true,
+        "epochs": 113,
+        "three_d_max_m": 0.1497246678718554,
+        "three_d_rms_m": 0.10334937082447024,
+        "three_d_at_end_m": 0.12829964770043994,
+        "radial_max_m": 0.03843522676947745,
+        "along_max_m": 0.14483062814479555,
+        "cross_max_m": 0.07257458861337057,
+        "against_start_centre_own_orbit_three_d_max_m": 0.1635601883066088,
+        "gate_m": 1.0,
+        "pass": true
+       },
+       "one_day": {
+        "horizon_s": 86400.0,
+        "epochs_expected": 720,
+        "epochs_scored": 720,
+        "reached": true,
+        "epochs": 720,
+        "three_d_max_m": 0.5066672384873439,
+        "three_d_rms_m": 0.2237156788383441,
+        "three_d_at_end_m": 0.5066672384873439,
+        "radial_max_m": 0.08120039681446783,
+        "along_max_m": 0.318751503475445,
+        "cross_max_m": 0.4617066756193781,
+        "against_start_centre_own_orbit_three_d_max_m": 0.5201581398587933,
+        "gate_m": 10.0,
+        "pass": true
+       },
+       "three_days": {
+        "horizon_s": 259200.0,
+        "epochs_expected": 2160,
+        "epochs_scored": 2160,
+        "reached": true,
+        "epochs": 2160,
+        "three_d_max_m": 2.1184288547415053,
+        "three_d_rms_m": 0.9414737451828417,
+        "three_d_at_end_m": 1.894553965992775,
+        "radial_max_m": 0.23125479486374734,
+        "along_max_m": 1.5833584515283436,
+        "cross_max_m": 1.8058871193933501,
+        "against_start_centre_own_orbit_three_d_max_m": 2.1452968452313628
+       }
+      },
+      "answer_sha256": "66778afcdd8b8457806954a1245d8e590b8f1990c658177e2279a263ab57a29c"
+     },
+     {
+      "start_day": 3,
+      "start_utc": "MJD 61320 0 h",
+      "steps": 25920,
+      "initial": {
+       "epoch_utc_s": 844603200.0,
+       "forecast_elapsed_s": 0.0,
+       "position_m": [
+        -7695328.584449827,
+        -5869756.043372243,
+        7630122.524816581
+       ],
+       "velocity_m_s": [
+        3981.2524144426493,
+        -1564.7500665718085,
+        2819.1222381917146
+       ]
+      },
+      "outcome": "completed",
+      "steps_landed": 25920,
+      "reject": null,
+      "run_seal": "3403ae63b25f8479ac4463ed0d16c0455afe0cbc2fdb452467b21022f185523c",
+      "tape_holds": true,
+      "frames": 2160,
+      "frames_in_earth_shadow": 385,
+      "frames_below_compared_radius": 0,
+      "score": {
+       "one_revolution": {
+        "horizon_s": 13560.0,
+        "epochs_expected": 113,
+        "epochs_scored": 113,
+        "reached": true,
+        "epochs": 113,
+        "three_d_max_m": 0.1389211863351154,
+        "three_d_rms_m": 0.0795864918873622,
+        "three_d_at_end_m": 0.1389211863351154,
+        "radial_max_m": 0.03707277428359228,
+        "along_max_m": 0.11379679087253022,
+        "cross_max_m": 0.10589966847311279,
+        "against_start_centre_own_orbit_three_d_max_m": 0.1446996238981577,
+        "gate_m": 1.0,
+        "pass": true
+       },
+       "one_day": {
+        "horizon_s": 86400.0,
+        "epochs_expected": 720,
+        "epochs_scored": 720,
+        "reached": true,
+        "epochs": 720,
+        "three_d_max_m": 0.7167442097300509,
+        "three_d_rms_m": 0.4006677314396921,
+        "three_d_at_end_m": 0.605985863906277,
+        "radial_max_m": 0.11577920300595745,
+        "along_max_m": 0.5444052432346819,
+        "cross_max_m": 0.6809506996647945,
+        "against_start_centre_own_orbit_three_d_max_m": 0.7371766682192059,
+        "gate_m": 10.0,
+        "pass": true
+       },
+       "three_days": {
+        "horizon_s": 259200.0,
+        "epochs_expected": 2160,
+        "epochs_scored": 2160,
+        "reached": true,
+        "epochs": 2160,
+        "three_d_max_m": 1.9437260437903792,
+        "three_d_rms_m": 0.9269050544389986,
+        "three_d_at_end_m": 0.8417223291689607,
+        "radial_max_m": 0.19282466256760233,
+        "along_max_m": 0.7979589979771647,
+        "cross_max_m": 1.9304187311257293,
+        "against_start_centre_own_orbit_three_d_max_m": 1.9547844567738277
+       }
+      },
+      "answer_sha256": "18af0e6995eb843ac5936b23a49e9310594d4faeb0dc00cd01a4607b73c66b1c"
+     },
+     {
+      "start_day": 4,
+      "start_utc": "MJD 61321 0 h",
+      "steps": 8640,
+      "initial": {
+       "epoch_utc_s": 844689600.0,
+       "forecast_elapsed_s": 0.0,
+       "position_m": [
+        9112756.226846313,
+        4611502.710697372,
+        -6306865.413403328
+       ],
+       "velocity_m_s": [
+        -3452.153649294573,
+        2053.672634617459,
+        -3449.6838407062355
+       ]
+      },
+      "outcome": "completed",
+      "steps_landed": 8640,
+      "reject": null,
+      "run_seal": "ccfed3636fdf62f6fc07af8c8559cba68cec53e4eaed3c7fcbc34fee8eaee458",
+      "tape_holds": true,
+      "frames": 720,
+      "frames_in_earth_shadow": 115,
+      "frames_below_compared_radius": 0,
+      "score": {
+       "one_revolution": {
+        "horizon_s": 13560.0,
+        "epochs_expected": 113,
+        "epochs_scored": 113,
+        "reached": true,
+        "epochs": 113,
+        "three_d_max_m": 0.312683224153045,
+        "three_d_rms_m": 0.20085940016922307,
+        "three_d_at_end_m": 0.2791794981238384,
+        "radial_max_m": 0.08643607744192824,
+        "along_max_m": 0.31222284747354245,
+        "cross_max_m": 0.10786861090440264,
+        "against_start_centre_own_orbit_three_d_max_m": 0.32972789207854847,
+        "gate_m": 1.0,
+        "pass": true
+       },
+       "one_day": {
+        "horizon_s": 86400.0,
+        "epochs_expected": 720,
+        "epochs_scored": 720,
+        "reached": true,
+        "epochs": 720,
+        "three_d_max_m": 1.4463877683690542,
+        "three_d_rms_m": 0.7488979434424204,
+        "three_d_at_end_m": 1.4463877683690542,
+        "radial_max_m": 0.08643607744192824,
+        "along_max_m": 1.382739482198779,
+        "cross_max_m": 0.6354666553522004,
+        "against_start_centre_own_orbit_three_d_max_m": 1.4734849924780502,
+        "gate_m": 10.0,
+        "pass": true
+       }
+      },
+      "answer_sha256": "eff494b11da2b2ad45963100973a37a36e76298ed383bce2924efbd44a0cc443"
+     },
+     {
+      "start_day": 5,
+      "start_utc": "MJD 61322 0 h",
+      "steps": 8640,
+      "initial": {
+       "epoch_utc_s": 844776000.0,
+       "forecast_elapsed_s": 0.0,
+       "position_m": [
+        -10513187.472341737,
+        -3546067.1948916456,
+        5336806.381812013
+       ],
+       "velocity_m_s": [
+        2650.5644754397986,
+        -2269.9232169566358,
+        3781.012052777595
+       ]
+      },
+      "outcome": "completed",
+      "steps_landed": 8640,
+      "reject": null,
+      "run_seal": "53389c0646426c6044533a57a0dc95e76e890d73ed189ab3e3f68cebea7dad22",
+      "tape_holds": true,
+      "frames": 720,
+      "frames_in_earth_shadow": 134,
+      "frames_below_compared_radius": 0,
+      "score": {
+       "one_revolution": {
+        "horizon_s": 13560.0,
+        "epochs_expected": 113,
+        "epochs_scored": 113,
+        "reached": true,
+        "epochs": 113,
+        "three_d_max_m": 0.14386221844448963,
+        "three_d_rms_m": 0.08973507921226363,
+        "three_d_at_end_m": 0.052356324118808015,
+        "radial_max_m": 0.04695166829492572,
+        "along_max_m": 0.1436698268287649,
+        "cross_max_m": 0.08933341983289142,
+        "against_start_centre_own_orbit_three_d_max_m": 0.11559205733787004,
+        "gate_m": 1.0,
+        "pass": true
+       },
+       "one_day": {
+        "horizon_s": 86400.0,
+        "epochs_expected": 720,
+        "epochs_scored": 720,
+        "reached": true,
+        "epochs": 720,
+        "three_d_max_m": 0.9163159674500858,
+        "three_d_rms_m": 0.586493034545075,
+        "three_d_at_end_m": 0.8153416892745748,
+        "radial_max_m": 0.08573167863642067,
+        "along_max_m": 0.8785803751896202,
+        "cross_max_m": 0.4987971585649358,
+        "against_start_centre_own_orbit_three_d_max_m": 0.8928146506112054,
+        "gate_m": 10.0,
+        "pass": true
+       }
+      },
+      "answer_sha256": "8aadbbaab77c004aa7ba9cc993e53f7d0c176d2ec82cc8db99c56fb72d4e6fd5"
+     },
+     {
+      "start_day": 6,
+      "start_utc": "MJD 61323 0 h",
+      "steps": 1356,
+      "initial": {
+       "epoch_utc_s": 844862400.0,
+       "forecast_elapsed_s": 0.0,
+       "position_m": [
+        11311883.06605682,
+        1881336.6086616078,
+        -3624655.268923061
+       ],
+       "velocity_m_s": [
+        -1835.915077313631,
+        2581.092380094431,
+        -4245.728357053082
+       ]
+      },
+      "outcome": "completed",
+      "steps_landed": 1356,
+      "reject": null,
+      "run_seal": "5397674a62228a693828956973678cd7a6fca304700b2c7d1dfca01a98379cf2",
+      "tape_holds": true,
+      "frames": 113,
+      "frames_in_earth_shadow": 20,
+      "frames_below_compared_radius": 0,
+      "score": {
+       "one_revolution": {
+        "horizon_s": 13560.0,
+        "epochs_expected": 113,
+        "epochs_scored": 113,
+        "reached": true,
+        "epochs": 113,
+        "three_d_max_m": 0.1408073915955965,
+        "three_d_rms_m": 0.07590962296917037,
+        "three_d_at_end_m": 0.09440318779795905,
+        "radial_max_m": 0.05135954037468814,
+        "along_max_m": 0.1354028359102713,
+        "cross_max_m": 0.0387168407007031,
+        "against_start_centre_own_orbit_three_d_max_m": 0.14404325039847773,
+        "gate_m": 1.0,
+        "pass": true
+       }
+      },
+      "answer_sha256": "a3c35e2f1087f8c67f7f574c11b5ed3a998af7ac4fdf98fe2367ed7b6ae80bef"
+     }
+    ],
+    "tally": {
+     "one_revolution": {
+      "starts": 7,
+      "passed": 7,
+      "worst_m": 0.312683224153045
+     },
+     "one_day": {
+      "starts": 6,
+      "passed": 6,
+      "worst_m": 1.4463877683690542
+     },
+     "seven_days": {
+      "starts": 1,
+      "passed": 1,
+      "worst_m": 7.923343988909884
+     }
+    },
+    "passes": true
+   },
+   "verdict": "pass"
+  }
+ },
+ "verdict": "met",
+ "finished_utc": "2026-10-22T03:04:17Z"
+}

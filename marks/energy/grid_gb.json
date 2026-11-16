@@ -1,0 +1,5 @@
+{
+ "model": "energy/grid_gb",
+ "pass_mark": "Fixed before any model was run (protocol SHA-256 35c91fa9fe440ad852390b77bcd6ecddd8e7029630e620a660b11aad1f481ea9, amended once before the structure of this card was fitted, SHA-256 0fd449fc45839ef37928db97995b43f47cb22bb2ae89d531ccf4592e6e9732ba). Depth of the fall and the steepest second: root mean square of the relative error at most 0.25 and mean within 0.10, and the depth error smaller than that of the rule that depth is proportional to loss. Frequency near 60 s: root mean square error at most 0.06 Hz. The whole trace: median root mean square error at most 0.05 Hz.",
+ "sha256": "35c91fa9fe440ad852390b77bcd6ecddd8e7029630e620a660b11aad1f481ea9"
+}

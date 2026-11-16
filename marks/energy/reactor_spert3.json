@@ -1,0 +1,5 @@
+{
+ "model": "energy/reactor_spert3",
+ "pass_mark": "Fixed before any model was run (protocol SHA-256 47458dc27bcd9a60fe6c16ac613b2be3e15b30c7e4bb75d7624c80707e4e7ccd). Peak power and energy released to the peak: the root mean square of the error, in units of the report's standard deviation, at most 1.5; the worst error at most 3; the mean error at most 0.5 in size. Time of the peak: the root mean square of the relative error at most 5 percent and the worst at most 10 percent.",
+ "sha256": "47458dc27bcd9a60fe6c16ac613b2be3e15b30c7e4bb75d7624c80707e4e7ccd"
+}

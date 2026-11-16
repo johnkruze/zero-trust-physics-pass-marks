@@ -1,0 +1,5 @@
+{
+ "model": "aerospace/capsule_insight",
+ "pass_mark": "Two sets, both fixed before the card was compared with any flight row (protocol SHA-256 ddafbbe8299da589e95a674bb31150f869d0f85d21415036bdbedfc4d7fa0a54, Amendment 2 SHA-256 9bb5b953e4ae325eb954fb3979b3942a08dc19bd5ff80ae2f6bbeda37b137146). The first lines are NASA's own printed spread for its own forecast: peak deceleration within 0.5 g, each time within 6.946 percent of elapsed time (7.68 s on the peak, 10.42 s at 150 s, 15.1 s at the parachute), radius at the parachute within 3.5 km, Mach number there within 0.2. The second set is built from the stated spread of the card's own inputs, twice the root sum of squares of the shift each input gives when moved by one standard deviation: the air density, the drag coefficient and the lift.",
+ "sha256": "ddafbbe8299da589e95a674bb31150f869d0f85d21415036bdbedfc4d7fa0a54"
+}

@@ -1,0 +1,5 @@
+{
+ "model": "materials/fingerpad_p02_glass",
+ "pass_mark": "Fixed before any held-back trial was opened (pre-registration SHA-256 49a4788d1eb6e5d5881d4f3b2195ad248a2a543c2da45fb1c8ffb7dc27672081), twelve lines, four at each of P02's three held-back conditions, each set at the scatter of one trial about its own condition's mean on the fitted conditions: slip torque (the mean over the 0.5 s before 75 degrees) within 5.62 percent of the measured mean; torque curve from 1 to 75 degrees within 8.32 percent of the slip torque, root mean square; twist at full slip (stuck fraction under 0.03) within 5.75 degrees; stuck-fraction curve within 0.0595, root mean square. Beside each slip torque: a constant, torque proportional to load, a straight line in load, the nearest fitted condition, and the same model with the constants of finger P01, which never saw P02. A line that one of those also meets is not evidence for the card. The five other fingers carry no line.",
+ "sha256": "49a4788d1eb6e5d5881d4f3b2195ad248a2a543c2da45fb1c8ffb7dc27672081"
+}

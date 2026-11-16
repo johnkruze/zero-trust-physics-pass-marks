@@ -1,0 +1,5 @@
+{
+ "model": "modulus_bam_s355",
+ "pass_mark": "Fixed before the held-back data were opened (analysis/prereg.json, SHA-256 e606a12456dfb449387a8a3c627401ebbc087166264b885b336b466f46dcec2d, and its amendment 2, SHA-256 ea32c1e8b46f5191316dc9b53dc30f2105e1e86a7600d422b4fa8da5744589da). P1: Young's modulus against the elastic slope of the tensile tests in the same direction, within 2 sqrt(0.5² + (s/√n)² + 0.577² + 0.115² + 0.577²) percent. P2: the edgewise frequency, which the recovery never uses, predicted within 0.25 percent on all four scans. P3: the moduli of the four scans within 1.41 percent (E) and 4.24 percent (G) of each other. P5: energy balance and free end within 1e-8. P6: E and G within 0.10 percent of the values the laboratory computed from the same frequencies. P7: every answer converged and its proof verified. The model passes only if P1 to P5 are all met.",
+ "sha256": "e606a12456dfb449387a8a3c627401ebbc087166264b885b336b466f46dcec2d"
+}

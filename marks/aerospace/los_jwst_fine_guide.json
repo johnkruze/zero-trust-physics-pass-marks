@@ -1,0 +1,5 @@
+{
+ "model": "aerospace/los_jwst_fine_guide",
+ "pass_mark": "Fixed before any held-back file was downloaded (pre-registration SHA-256 9e160724092e182f847eb0103e6ca7a54aba0f75c5d1ca14dcd275c9a554c8f5), on the quiet frames of the held-back files, for each axis: the error of the prediction one frame ahead at most 0.85 of the error of taking the last centroid and at most 0.85 of the error of taking the lock point; the mean of the squared error over the variance the card states between 0.67 and 1.50; the correlation of that normalised error from one frame to the next at most 0.15 in size; and that mean between 0.5 and 2.0 in at least 80 percent of the files with 500 quiet frames or more.",
+ "sha256": "9e160724092e182f847eb0103e6ca7a54aba0f75c5d1ca14dcd275c9a554c8f5"
+}

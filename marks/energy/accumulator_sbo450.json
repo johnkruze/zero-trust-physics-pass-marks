@@ -1,0 +1,5 @@
+{
+ "model": "energy/accumulator_sbo450",
+ "pass_mark": "Fixed before any held-back file was downloaded (protocol SHA-256 721d88a5264b0e15342824290e6305db1df27fab76011333b49d5ed253b38323). For each held-back run the card is driven by a sine of the measured amplitude from the cyclic steady state at the measured mean pressure, and two numbers are compared: the stiffness, which is the swing of the gas pressure per unit of piston travel, and the lead of the pressure over the piston. Stiffness error: median at most 2.0 percent over the 285 runs and in each of the five records, and at most 5.0 percent in any run. Lead error: median at most 0.5 degrees, and at most 3.0 degrees in any run. And the card's two medians lower than those of five baselines: an isothermal and an adiabatic ideal gas, this model unfitted, the measured stiffness of the fitted condition scaled by the ideal-gas law, and this model with the ideal-gas law fitted to the same runs. The mean pressure of a run is taken from the measurement and is not tested.",
+ "sha256": "721d88a5264b0e15342824290e6305db1df27fab76011333b49d5ed253b38323"
+}

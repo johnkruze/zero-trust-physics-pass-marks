@@ -1,0 +1,5 @@
+{
+ "model": "fuel_rod_triga_jsi",
+ "pass_mark": "On the held-back pulses: maximum rise of the thermocouple within 10 percent, time of that maximum within 20 percent, and rise 10 s after the power peak within 10 percent, each on at least 80 percent of the pulses and each better than a lumped baseline.",
+ "sha256": "c128c9e7c7cba4895c41b461df9df4c0ee1233e3de351fd1ec280de87ffb5bc3"
+}

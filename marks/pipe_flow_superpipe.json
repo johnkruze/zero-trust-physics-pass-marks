@@ -1,0 +1,5 @@
+{
+ "model": "pipe_flow_superpipe",
+ "pass_mark": "Fixed on 2026-10-11 before any held-back file was opened (protocol SHA-256 704700a99d27cdd566d47a92182d363f31ad8d1ee774c1e75c84a8de75b26893). P1: on the McKeon 2004 friction factors, rms relative error at most 3 percent and worst at most 5 percent, and rms below the Prandtl-Karman law's. P2: on the McKeon profiles above 1e6 and every NSTAP profile, every centreline-to-bulk ratio within 2 percent, and rms below the log law integrated over the section (1 + 3.75 sqrt(f_PK/8)). P3: on the same profiles, at every point from y+ = 50 to the axis (and at least two Pitot diameters from the wall), pooled rms of u+ at most 2 percent, worst profile at most 3 percent, and pooled rms below the log law u+ = ln(y+)/0.40 + 5.5. The comparison passes only if all three do.",
+ "sha256": "704700a99d27cdd566d47a92182d363f31ad8d1ee774c1e75c84a8de75b26893"
+}

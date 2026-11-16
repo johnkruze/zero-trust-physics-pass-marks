@@ -1,0 +1,5 @@
+{
+ "model": "tokamak_dt_beam_target",
+ "pass_mark": "Four marks on the TFTR slices whose database fusion power is at least 0.2 MW. L1: the median of solver over database fusion power inside 0.85 to 1.15. L2: at least 0.90 of the slices inside 0.75 to 1.25. L3: pulse 80539 at the slice nearest the peak of its trace, solver over the published measured 10.7 MW, inside 0.80 to 1.20. L4: every scored slice solved, with both ledgers inside tolerance. Baselines scored beside: the first card's fusion formulas with its fitted constants, thermal-only at the central values, thermal-only with profiles, and a constant times the beam power. Fixed 2026-10-10T01:32:38Z, SHA-256 b507ab0a291ca266ce0a9293f39d3d7efbdb60b8a7a3ee093e68ee87603fad91 of validation_protocol.md, before any TFTR file was fetched.",
+ "sha256": "b507ab0a291ca266ce0a9293f39d3d7efbdb60b8a7a3ee093e68ee87603fad91"
+}

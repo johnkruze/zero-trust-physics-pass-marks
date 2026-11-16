@@ -1,0 +1,5 @@
+{
+ "model": "fusion_pb11_lhd",
+ "pass_mark": "Four lines. Against the published calculation: solver over published inside 0.5 to 2.0. Beam energy dependence: after one common scale factor, every point within a factor of 2. Time shape: after one common scale factor, every point within a factor of 2. Collapse under the 45 keV beam: solver ratio at most the measured ratio. Fixed 2026-10-09T20:51:55Z, SHA-256 8bd91c5c1328f461a268ccca6dc0f31c61b11ab95051da1fe260fe5c2841db90 of validation_protocol.md, before any forecast was run and before any value was read off a figure of Ogawa et al. 2024.",
+ "sha256": "8bd91c5c1328f461a268ccca6dc0f31c61b11ab95051da1fe260fe5c2841db90"
+}

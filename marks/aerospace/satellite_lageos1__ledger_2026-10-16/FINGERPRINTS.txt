@@ -1,0 +1,12 @@
+# FINGERPRINTS of the held-back files of week 261010 (2026-10-04 0 h to 2026-10-11 0 h), written 2026-10-22T03:04:04Z BEFORE any file was opened or parsed.
+# Fetched by evidence/research/lageos1_orbit/ledger_2026-10-16/analysis/33_fetch_unread.py (SHA-256 05ee39bc...35c6), python3 -I -B, anonymous FTP, EDC (DGFI-TUM). fetch_log.csv holds the same hashes, computed in-stream.
+# ilrsb v80 of week 261010 is not published at the EDC for either satellite (FTP listing 2026-10-22T03:03Z); fetch_log status 'missing: URLError'.
+# columns: sha256  bytes  fetched_utc  url
+ef5e1f298d5c9932458ae5aa705f6a22dc3c738cb469e1f785f9c9afeaa9d805  237333  2026-10-22T03:03:39Z  ftp://edc.dgfi.tum.de/pub/slr/products/orbits/TRF/lageos1/2026/261010/gfz.orb.lageos1.261010.v80.sp3.gz
+0c95e694376ac111dc502b71225951c8c4d47b96dfbd0339da60ca3e3d4aad4f  243989  2026-10-22T03:03:42Z  ftp://edc.dgfi.tum.de/pub/slr/products/orbits/TRF/lageos1/2026/261010/ilrsa.orb.lageos1.261010.v80.sp3.gz
+c386f18c51328cc3c2d862314e3180be56907347606ec89eea8c26becf6f0a0f  236799  2026-10-22T03:03:50Z  ftp://edc.dgfi.tum.de/pub/slr/products/orbits/TRF/lageos2/2026/261010/gfz.orb.lageos2.261010.v80.sp3.gz
+92bfec1a2372cdf16b945e34edf191a5dc572f723849d815b8a2131ff67de103  243882  2026-10-22T03:03:53Z  ftp://edc.dgfi.tum.de/pub/slr/products/orbits/TRF/lageos2/2026/261010/ilrsa.orb.lageos2.261010.v80.sp3.gz
+# listings (server text only):
+42ec1d950a13ce6e8cda70aa641f1ee489fa7ee270b3dd2b823e29315e03acf3  1557  lageos1/_ftp_listing_2026-10-22T030334Z.txt
+108495b17846912d548f25d8b715f69fdd1c1337c91422c41ae6e8556b2d68c9  1557  lageos2/_ftp_listing_2026-10-22T030345Z.txt
+# fetch_log.csv: 805d4b0fe263a2dd530160582c3e5ca314c86665dcf57f802eda4a87e5f81c6b
