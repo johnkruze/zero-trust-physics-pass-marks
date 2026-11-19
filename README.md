@@ -1,5 +1,7 @@
 # Zero-Trust Physics: validation targets and replays
 
+> **Archived 18 November 2026.** This repository is read-only and takes no further changes. New work from Protocol Company is published on Hugging Face: https://huggingface.co/zero-trust-physics
+
 Zero-Trust Physics is a deterministic physics runtime with a proof on every answer. Most models represent one real physical system and state comparison targets and out-of-sample error against published measurements.
 
 Each `.json` file under `marks/` holds one model's target:
@@ -32,7 +34,7 @@ A replay pairs exact MCP tool requests against reference measurements and compar
 - Self-serve RLVR Domain Packs ($9,500) & Bundle ($39,500): https://zerotrustphysics.com/offers/fast-start/
 - Hugging Face organization: https://huggingface.co/zero-trust-physics
 - Paper (version 2.0): https://doi.org/10.5281/zenodo.23517223
-- Engine reference source (`v0.15.2`, Apache-2.0): https://github.com/johnkruze/zero-trust-physics-engine
+- Engine reference source (`v0.15.3`, Apache-2.0): https://github.com/johnkruze/zero-trust-physics-engine
 - John Kruze, CEO: kruze@zerotrustphysics.com
 
 ---
